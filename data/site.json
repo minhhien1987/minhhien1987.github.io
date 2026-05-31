@@ -1,0 +1,222 @@
+{
+  "site": {
+    "brand": "MINH HIỂN GARMENT",
+    "shortBrand": "MINH HIỂN",
+    "tagline": {
+      "vi": "Đối tác gia công may mặc linh hoạt, chỉn chu và đúng tiến độ",
+      "en": "A flexible, detail-driven and reliable garment manufacturing partner"
+    },
+    "heroTitle": {
+      "vi": "Từng đường may chỉn chu. Từng đơn hàng được đồng hành tận tâm.",
+      "en": "Refined stitches. Dedicated support for every garment order."
+    },
+    "heroDescription": {
+      "vi": "Nhận đặt may và gia công nhiều nhóm sản phẩm theo mẫu, số lượng và yêu cầu thực tế. Tập trung vào độ hoàn thiện, sự đồng đều và tiến độ rõ ràng.",
+      "en": "We provide made-to-order and garment manufacturing services across multiple product lines, based on your samples, quantities and practical requirements."
+    },
+    "phone": "0900 000 000",
+    "zalo": "0900 000 000",
+    "email": "minhhien@example.com",
+    "address": {
+      "vi": "Việt Nam",
+      "en": "Vietnam"
+    },
+    "workingHours": {
+      "vi": "Thứ Hai - Thứ Bảy · 08:00 - 17:30",
+      "en": "Monday - Saturday · 08:00 - 17:30"
+    },
+    "stats": [
+      {
+        "value": {
+          "vi": "Linh hoạt",
+          "en": "Flexible"
+        },
+        "label": {
+          "vi": "Theo mẫu mã và số lượng",
+          "en": "For diverse styles and quantities"
+        }
+      },
+      {
+        "value": {
+          "vi": "Chỉn chu",
+          "en": "Refined"
+        },
+        "label": {
+          "vi": "Kiểm soát chất lượng thành phẩm",
+          "en": "Careful finished-product quality control"
+        }
+      },
+      {
+        "value": {
+          "vi": "Đúng hẹn",
+          "en": "Reliable"
+        },
+        "label": {
+          "vi": "Theo sát tiến độ đơn hàng",
+          "en": "Clear order progress tracking"
+        }
+      }
+    ],
+    "heroImage": ""
+  },
+  "services": [
+    {
+      "icon": "shirt",
+      "title": {
+        "vi": "Gia công theo mẫu",
+        "en": "Sample-based manufacturing"
+      },
+      "description": {
+        "vi": "Tiếp nhận mẫu, trao đổi yêu cầu kỹ thuật và triển khai phù hợp với từng dòng sản phẩm.",
+        "en": "We review your samples, clarify technical requirements and tailor production to each product line."
+      }
+    },
+    {
+      "icon": "layers",
+      "title": {
+        "vi": "Đơn hàng linh hoạt",
+        "en": "Flexible order handling"
+      },
+      "description": {
+        "vi": "Hỗ trợ trao đổi theo nhu cầu thực tế, từ lô thử nghiệm đến đơn hàng định kỳ.",
+        "en": "We support practical requirements, from pilot batches to recurring production orders."
+      }
+    },
+    {
+      "icon": "badge-check",
+      "title": {
+        "vi": "Kiểm soát thành phẩm",
+        "en": "Finished-product quality control"
+      },
+      "description": {
+        "vi": "Chú trọng đường may, phom dáng, độ hoàn thiện và tính đồng đều trước khi bàn giao.",
+        "en": "We focus on stitching, fit, finishing details and consistency before delivery."
+      }
+    },
+    {
+      "icon": "clock-3",
+      "title": {
+        "vi": "Theo sát tiến độ",
+        "en": "Progress tracking"
+      },
+      "description": {
+        "vi": "Thống nhất kế hoạch rõ ràng và chủ động cập nhật tình hình thực hiện đơn hàng.",
+        "en": "We align on a clear plan and proactively update you throughout production."
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "product-ao-thun",
+      "categoryKey": "tshirt",
+      "category": {
+        "vi": "Áo thun",
+        "en": "T-shirts"
+      },
+      "title": {
+        "vi": "Gia công áo thun đồng phục",
+        "en": "Custom uniform T-shirt manufacturing"
+      },
+      "description": {
+        "vi": "Phù hợp cho đồng phục doanh nghiệp, sự kiện và các dòng sản phẩm theo bộ nhận diện.",
+        "en": "Suitable for corporate uniforms, events and branded product lines."
+      },
+      "image": "assets/images/product-tshirt.svg",
+      "featured": true,
+      "publishedAt": "2026-05-31T00:00:00.000Z"
+    },
+    {
+      "id": "product-so-mi",
+      "categoryKey": "shirt",
+      "category": {
+        "vi": "Sơ mi",
+        "en": "Shirts"
+      },
+      "title": {
+        "vi": "Gia công áo sơ mi",
+        "en": "Custom shirt manufacturing"
+      },
+      "description": {
+        "vi": "Chú trọng phom dáng, độ gọn gàng và mức độ hoàn thiện phù hợp với nhiều nhóm khách hàng.",
+        "en": "Focused on fit, clean construction and refined finishing for diverse customer segments."
+      },
+      "image": "assets/images/product-shirt.svg",
+      "featured": true,
+      "publishedAt": "2026-05-31T00:00:00.000Z"
+    },
+    {
+      "id": "product-do-bo",
+      "categoryKey": "homewear",
+      "category": {
+        "vi": "Đồ bộ",
+        "en": "Homewear"
+      },
+      "title": {
+        "vi": "Gia công đồ bộ và trang phục mặc nhà",
+        "en": "Homewear and matching-set manufacturing"
+      },
+      "description": {
+        "vi": "Triển khai theo mẫu, chất liệu và nhóm kích cỡ; phù hợp với đơn vị kinh doanh thời trang.",
+        "en": "Produced by sample, material and size range for fashion retailers and brands."
+      },
+      "image": "assets/images/product-set.svg",
+      "featured": true,
+      "publishedAt": "2026-05-31T00:00:00.000Z"
+    },
+    {
+      "id": "product-tre-em",
+      "categoryKey": "kids",
+      "category": {
+        "vi": "Trẻ em",
+        "en": "Kidswear"
+      },
+      "title": {
+        "vi": "Gia công trang phục trẻ em",
+        "en": "Kidswear manufacturing"
+      },
+      "description": {
+        "vi": "Ưu tiên độ hoàn thiện, sự thoải mái và tính phù hợp với từng nhóm sản phẩm trẻ em.",
+        "en": "Prioritizing finishing quality, comfort and suitability for each kidswear line."
+      },
+      "image": "assets/images/product-kids.svg",
+      "featured": false,
+      "publishedAt": "2026-05-31T00:00:00.000Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-chao-mung",
+      "title": {
+        "vi": "Minh Hiển Garment nhận đặt may gia công theo nhu cầu",
+        "en": "Minh Hien Garment accepts made-to-order manufacturing requests"
+      },
+      "excerpt": {
+        "vi": "Tiếp nhận trao đổi đơn hàng theo mẫu, nhóm sản phẩm và tiến độ thống nhất với khách hàng.",
+        "en": "We discuss orders based on samples, product lines and timelines agreed with each customer."
+      },
+      "content": {
+        "vi": "Minh Hiển Garment định hướng trở thành đối tác gia công may mặc linh hoạt, gần gũi và đáng tin cậy. Mỗi yêu cầu được tiếp nhận trên cơ sở trao đổi rõ mẫu mã, chất liệu, số lượng, thời gian thực hiện và tiêu chuẩn hoàn thiện.\n\nQuý khách có thể liên hệ trực tiếp để trao đổi nhu cầu và nhận tư vấn bước đầu.",
+        "en": "Minh Hien Garment aims to be a flexible, approachable and reliable manufacturing partner. Each request is reviewed with clear discussion of styles, materials, quantities, timelines and finishing standards.\n\nPlease contact us directly to discuss your requirements and receive an initial consultation."
+      },
+      "image": "assets/images/blog-workshop.svg",
+      "publishedAt": "2026-05-31T00:00:00.000Z"
+    },
+    {
+      "id": "post-quy-trinh",
+      "title": {
+        "vi": "Quy trình trao đổi đơn hàng rõ ràng và thuận tiện",
+        "en": "A clear and convenient order discussion process"
+      },
+      "excerpt": {
+        "vi": "Từ tiếp nhận mẫu đến bàn giao thành phẩm, mỗi bước đều được trao đổi cụ thể để hạn chế sai lệch.",
+        "en": "From sample intake to finished-product delivery, each step is clarified to minimize discrepancies."
+      },
+      "content": {
+        "vi": "Quy trình cơ bản gồm: tiếp nhận nhu cầu, trao đổi mẫu và thông số, thống nhất phương án triển khai, theo dõi tiến độ, kiểm tra thành phẩm và bàn giao.\n\nTùy đặc điểm từng đơn hàng, các bước có thể được điều chỉnh linh hoạt để phù hợp với thực tế.",
+        "en": "The basic process includes: requirement intake, sample and specification discussion, production-plan alignment, progress tracking, finished-product inspection and delivery.\n\nThe workflow can be adapted to match the practical characteristics of each order."
+      },
+      "image": "assets/images/blog-process.svg",
+      "publishedAt": "2026-05-30T00:00:00.000Z"
+    }
+  ]
+}

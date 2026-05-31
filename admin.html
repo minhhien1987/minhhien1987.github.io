@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0d4f4a">
+  <title>MINH HIỂN | Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+  <section class="login-page" data-login-page>
+    <div class="login-visual">
+      <div class="visual-inner">
+        <a class="brand" href="index.html"><span class="brand-mark">MH</span><span><strong>MINH HIỂN</strong><small>GARMENT STUDIO</small></span></a>
+        <div class="login-language"><button class="lang-btn active" data-lang="vi" type="button">VI</button><button class="lang-btn" data-lang="en" type="button">EN</button></div>
+        <div class="visual-message"><p data-i18n="loginEyebrow">CONTENT STUDIO</p><h1 data-i18n="loginVisualTitle">Đăng sản phẩm và chia sẻ câu chuyện của xưởng may.</h1><span data-i18n="loginVisualText">Một bảng quản trị gọn gàng để cập nhật hình ảnh, bài viết và thông tin liên hệ.</span></div>
+        <div class="visual-pattern"><span></span><span></span><span></span><span></span></div>
+      </div>
+    </div>
+    <div class="login-panel">
+      <div class="login-card">
+        <div class="login-head"><p data-i18n="adminPortal">MINH HIỂN ADMIN PORTAL</p><h2 data-i18n="loginTitle">Đăng nhập quản trị</h2><span data-i18n="loginIntro">Đăng nhập để thêm hình ảnh sản phẩm, đăng bài viết và cập nhật nội dung website.</span></div>
+        <form class="form-stack" data-login-form>
+          <label><span data-i18n="username">Tên đăng nhập</span><input name="username" autocomplete="username" required></label>
+          <label><span data-i18n="password">Mật khẩu</span><input name="password" type="password" autocomplete="current-password" required></label>
+          <label><span data-i18n="publishCode">Mã xác thực xuất bản</span><input name="token" type="password" autocomplete="off" placeholder="github_pat_..."></label>
+          <label class="checkbox remember-row"><input name="rememberToken" type="checkbox"><span data-i18n="rememberToken">Ghi nhớ mã xác thực trên thiết bị riêng này</span></label>
+          <button class="btn primary wide" type="submit"><span data-i18n="loginPublish">Đăng nhập để quản trị website</span><b>↗</b></button>
+          <button class="btn secondary wide" type="button" data-demo-login data-i18n="demoMode">Xem thử bảng quản trị cục bộ</button>
+        </form>
+        <div class="login-note"><b>✓</b><span data-i18n="accessNote">Chỉ người quản trị được cấp quyền mới có thể cập nhật nội dung website.</span></div>
+        <a class="back-link" href="index.html">← <span data-i18n="backSite">Quay lại website công khai</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="app-shell hidden" data-app-shell>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-head"><a class="brand" href="index.html" target="_blank"><span class="brand-mark">MH</span><span><strong>MINH HIỂN</strong><small>ADMIN STUDIO</small></span></a><button class="sidebar-close" data-sidebar-close type="button">×</button></div>
+      <nav class="side-nav">
+        <button class="side-link active" data-panel-link="dashboard"><span>⌂</span><b data-i18n="dashboard">Tổng quan</b></button>
+        <button class="side-link" data-panel-link="products"><span>▧</span><b data-i18n="products">Sản phẩm</b></button>
+        <button class="side-link" data-panel-link="posts"><span>✎</span><b data-i18n="posts">Bài viết</b></button>
+        <button class="side-link" data-panel-link="settings"><span>⚙</span><b data-i18n="websiteInfo">Thông tin website</b></button>
+        <button class="side-link" data-panel-link="help"><span>?</span><b data-i18n="help">Hướng dẫn</b></button>
+      </nav>
+      <div class="sidebar-bottom"><a href="index.html" target="_blank">↗ <span data-i18n="openPublic">Mở website công khai</span></a><button type="button" data-logout>⇥ <span data-i18n="logout">Đăng xuất</span></button></div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-left"><button class="mobile-toggle" data-mobile-toggle type="button">☰</button><div><h1 data-page-title></h1><p><span class="status-dot"></span><span data-mode-label></span></p></div></div>
+        <div class="topbar-actions"><div class="language-switch"><button class="lang-btn active" data-lang="vi" type="button">VI</button><button class="lang-btn" data-lang="en" type="button">EN</button></div><button class="btn secondary small" data-refresh type="button" data-i18n="refresh">Làm mới</button><button class="btn primary small" data-quick-product type="button"><span>+</span><span data-i18n="addProductShort">Sản phẩm</span></button></div>
+      </header>
+      <div class="content">
+        <section class="panel active" data-panel="dashboard">
+          <div class="page-head"><div><p class="kicker" data-i18n="dashboardKicker">CONTENT OVERVIEW</p><h2 data-i18n="dashboardTitle">Tổng quan nội dung website</h2><span data-i18n="dashboardText">Theo dõi nhanh dữ liệu đang hiển thị công khai.</span></div></div>
+          <div class="metrics"><article><span data-i18n="products">Sản phẩm</span><strong data-count-products>0</strong><small data-i18n="publishedItems">Nội dung đã đăng</small></article><article><span data-i18n="posts">Bài viết</span><strong data-count-posts>0</strong><small data-i18n="publishedItems">Nội dung đã đăng</small></article><article><span data-i18n="categories">Nhóm sản phẩm</span><strong data-count-categories>0</strong><small data-i18n="productGroups">Phân nhóm hiển thị</small></article><article><span data-i18n="workingMode">Chế độ</span><strong class="mode-metric" data-mode-text></strong><small data-i18n="connectionMode">Kết nối dữ liệu</small></article></div>
+          <div class="dashboard-grid"><article class="card"><div class="card-head"><h3 data-i18n="latestProducts">Sản phẩm mới</h3><button data-panel-jump="products" type="button" data-i18n="viewAll">Xem tất cả</button></div><div class="list" data-recent-products></div></article><article class="card"><div class="card-head"><h3 data-i18n="latestPosts">Bài viết mới</h3><button data-panel-jump="posts" type="button" data-i18n="viewAll">Xem tất cả</button></div><div class="list" data-recent-posts></div></article></div>
+        </section>
+        <section class="panel" data-panel="products">
+          <div class="page-head row"><div><p class="kicker" data-i18n="productsKicker">PRODUCT LIBRARY</p><h2 data-i18n="manageProducts">Quản lý hình ảnh và sản phẩm</h2><span data-i18n="manageProductsText">Thêm sản phẩm gia công tiêu biểu bằng cả tiếng Việt và tiếng Anh.</span></div><button class="btn primary" data-add-product type="button">+ <span data-i18n="addProduct">Thêm sản phẩm</span></button></div>
+          <div class="card"><div class="list large" data-product-list></div></div>
+        </section>
+        <section class="panel" data-panel="posts">
+          <div class="page-head row"><div><p class="kicker" data-i18n="postsKicker">STORY & INSIGHTS</p><h2 data-i18n="managePosts">Quản lý bài viết</h2><span data-i18n="managePostsText">Chia sẻ thông tin, hình ảnh và câu chuyện mới từ xưởng may.</span></div><button class="btn primary" data-add-post type="button">+ <span data-i18n="addPost">Viết bài mới</span></button></div>
+          <div class="card"><div class="list large" data-post-list></div></div>
+        </section>
+        <section class="panel" data-panel="settings">
+          <div class="page-head"><div><p class="kicker" data-i18n="settingsKicker">WEBSITE SETTINGS</p><h2 data-i18n="websiteInfo">Thông tin website</h2><span data-i18n="settingsText">Cập nhật thông tin liên hệ và nội dung đầu trang bằng hai ngôn ngữ.</span></div></div>
+          <form class="card form-card" data-settings-form>
+            <div class="form-grid two"><label><span data-i18n="brandName">Tên đầy đủ của website</span><input name="brand" required></label><label><span data-i18n="shortBrand">Tên thương hiệu ngắn</span><input name="shortBrand" required></label><label><span data-i18n="phone">Số điện thoại</span><input name="phone" required></label><label><span>Zalo</span><input name="zalo" required></label><label><span>Email</span><input name="email" type="email"></label><label><span data-i18n="heroImagePath">Đường dẫn ảnh bìa hiện có</span><input name="heroImage" placeholder="assets/uploads/..."></label></div><label><span data-i18n="heroImageUpload">Tải ảnh bìa đầu trang mới</span><input name="heroImageFile" type="file" accept="image/jpeg,image/png,image/webp,image/gif"></label><label class="checkbox"><input name="removeHeroImage" type="checkbox"><span data-i18n="removeHeroImage">Xóa ảnh bìa hiện tại và dùng hình minh họa mặc định</span></label>
+            <div class="bilingual-block"><h3 data-i18n="viContent">Nội dung tiếng Việt</h3><div class="form-grid two"><label><span data-i18n="address">Địa chỉ</span><input name="addressVi"></label><label><span data-i18n="workingHours">Giờ làm việc</span><input name="hoursVi"></label></div><label><span data-i18n="tagline">Dòng giới thiệu ngắn</span><input name="taglineVi"></label><label><span data-i18n="heroTitle">Tiêu đề lớn đầu trang</span><textarea name="heroTitleVi"></textarea></label><label><span data-i18n="heroDescription">Mô tả đầu trang</span><textarea name="heroDescriptionVi"></textarea></label></div>
+            <div class="bilingual-block"><h3 data-i18n="enContent">English content</h3><div class="form-grid two"><label><span data-i18n="address">Địa chỉ</span><input name="addressEn"></label><label><span data-i18n="workingHours">Giờ làm việc</span><input name="hoursEn"></label></div><label><span data-i18n="tagline">Dòng giới thiệu ngắn</span><input name="taglineEn"></label><label><span data-i18n="heroTitle">Tiêu đề lớn đầu trang</span><textarea name="heroTitleEn"></textarea></label><label><span data-i18n="heroDescription">Mô tả đầu trang</span><textarea name="heroDescriptionEn"></textarea></label></div>
+            <div class="form-actions"><button class="btn primary" type="submit" data-i18n="saveWebsite">Lưu thông tin website</button></div>
+          </form>
+        </section>
+        <section class="panel" data-panel="help">
+          <div class="page-head"><div><p class="kicker">GUIDE</p><h2 data-i18n="helpTitle">Hướng dẫn sử dụng nhanh</h2><span data-i18n="helpText">Các nguyên tắc cần nhớ khi đăng nội dung lên website.</span></div></div>
+          <div class="help-grid"><article class="card"><b>01</b><h3 data-i18n="help1Title">Đăng sản phẩm</h3><p data-i18n="help1Text">Mở mục Sản phẩm, tải ảnh và nhập nội dung tiếng Việt cùng tiếng Anh. Sau đó bấm lưu.</p></article><article class="card"><b>02</b><h3 data-i18n="help2Title">Đăng bài viết</h3><p data-i18n="help2Text">Mở mục Bài viết, tải ảnh đại diện, nhập tiêu đề, mô tả và nội dung chi tiết cho hai ngôn ngữ.</p></article><article class="card"><b>03</b><h3 data-i18n="help3Title">Bảo vệ mã xác thực</h3><p data-i18n="help3Text">Chỉ ghi nhớ mã xác thực trên máy tính riêng của người quản trị. Không sử dụng chế độ ghi nhớ trên thiết bị dùng chung.</p></article><article class="card"><b>04</b><h3 data-i18n="help4Title">Dữ liệu công khai</h3><p data-i18n="help4Text">Ảnh và bài viết đã đăng sẽ công khai trên internet. Không tải tài liệu nội bộ hoặc thông tin nhạy cảm.</p></article></div>
+        </section>
+      </div>
+    </main>
+  </section>
+
+  <div class="modal" data-product-modal><div class="modal-card"><header><div><p class="kicker">PRODUCT EDITOR</p><h2 data-product-modal-title></h2></div><button type="button" data-close-product>×</button></header><form data-product-form><input type="hidden" name="id"><div class="form-grid two"><label><span data-i18n="categoryKey">Mã nhóm sản phẩm</span><input name="categoryKey" placeholder="tshirt" required></label><label><span data-i18n="existingImage">Đường dẫn ảnh hiện có</span><input name="image" placeholder="assets/uploads/..."></label></div><label><span data-i18n="newImage">Tải ảnh sản phẩm mới</span><input name="imageFile" type="file" accept="image/jpeg,image/png,image/webp,image/gif"></label><label class="checkbox"><input name="removeImage" type="checkbox"><span data-i18n="removeImage">Xóa ảnh hiện tại và dùng ảnh mặc định</span></label><div class="bilingual-block"><h3 data-i18n="viContent">Nội dung tiếng Việt</h3><div class="form-grid two"><label><span data-i18n="productName">Tên sản phẩm</span><input name="titleVi" required></label><label><span data-i18n="categoryName">Tên nhóm</span><input name="categoryVi" required></label></div><label><span data-i18n="shortDescription">Mô tả ngắn</span><textarea name="descriptionVi" required></textarea></label></div><div class="bilingual-block"><h3 data-i18n="enContent">English content</h3><div class="form-grid two"><label><span data-i18n="productName">Tên sản phẩm</span><input name="titleEn" required></label><label><span data-i18n="categoryName">Tên nhóm</span><input name="categoryEn" required></label></div><label><span data-i18n="shortDescription">Mô tả ngắn</span><textarea name="descriptionEn" required></textarea></label></div><label class="checkbox"><input name="featured" type="checkbox"><span data-i18n="featuredProduct">Hiển thị là sản phẩm nổi bật</span></label><div class="form-actions"><button class="btn primary" type="submit" data-i18n="saveProduct">Lưu sản phẩm</button><button class="btn secondary" type="button" data-close-product data-i18n="cancel">Hủy</button></div></form></div></div>
+
+  <div class="modal" data-post-modal><div class="modal-card"><header><div><p class="kicker">ARTICLE EDITOR</p><h2 data-post-modal-title></h2></div><button type="button" data-close-post>×</button></header><form data-post-form><input type="hidden" name="id"><label><span data-i18n="existingImage">Đường dẫn ảnh hiện có</span><input name="image" placeholder="assets/uploads/..."></label><label><span data-i18n="newImage">Tải ảnh đại diện mới</span><input name="imageFile" type="file" accept="image/jpeg,image/png,image/webp,image/gif"></label><label class="checkbox"><input name="removeImage" type="checkbox"><span data-i18n="removeImage">Xóa ảnh hiện tại và dùng ảnh mặc định</span></label><div class="bilingual-block"><h3 data-i18n="viContent">Nội dung tiếng Việt</h3><label><span data-i18n="postTitle">Tiêu đề bài viết</span><input name="titleVi" required></label><label><span data-i18n="excerpt">Mô tả ngắn</span><textarea name="excerptVi" required></textarea></label><label><span data-i18n="fullContent">Nội dung chi tiết</span><textarea name="contentVi" class="long" required></textarea></label></div><div class="bilingual-block"><h3 data-i18n="enContent">English content</h3><label><span data-i18n="postTitle">Tiêu đề bài viết</span><input name="titleEn" required></label><label><span data-i18n="excerpt">Mô tả ngắn</span><textarea name="excerptEn" required></textarea></label><label><span data-i18n="fullContent">Nội dung chi tiết</span><textarea name="contentEn" class="long" required></textarea></label></div><div class="form-actions"><button class="btn primary" type="submit" data-i18n="savePost">Lưu bài viết</button><button class="btn secondary" type="button" data-close-post data-i18n="cancel">Hủy</button></div></form></div></div>
+
+  <div class="loading" data-loading><div><span class="spinner"></span><b data-loading-text></b></div></div>
+  <div class="toast-wrap" data-toast-wrap></div>
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>
