@@ -107,6 +107,25 @@
   ],
   "products": [
     {
+      "id": "product-1780490577836",
+      "categoryKey": "ao-loa",
+      "category": {
+        "vi": "Áo loa",
+        "en": "Áo loa"
+      },
+      "title": {
+        "vi": "Áo loa",
+        "en": "Áo loa"
+      },
+      "description": {
+        "vi": "Áo loa chống mưa nắng",
+        "en": "Verry"
+      },
+      "image": "assets/uploads/1780490573558-ao-loa.jpeg",
+      "featured": true,
+      "publishedAt": "2026-06-03T12:42:57.837Z"
+    },
+    {
       "id": "product-ao-thun",
       "categoryKey": "tshirt",
       "category": {
