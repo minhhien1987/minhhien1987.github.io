@@ -107,6 +107,25 @@
   ],
   "products": [
     {
+      "id": "product-1780577175518",
+      "categoryKey": "ao-loa-vai-bo",
+      "category": {
+        "vi": "Áo loa",
+        "en": "Speaker shirt"
+      },
+      "title": {
+        "vi": "Áo loa hoả tiễn DTG",
+        "en": "DTG rocket speaker jacket"
+      },
+      "description": {
+        "vi": "Áo loa DTG bạt vải bố chống mưa,nắng,bền đẹp bảo vệ loa tốt.",
+        "en": "DTG speaker jacket is made of burlap to prevent rain, sun, durable and beautiful to protect the speaker well."
+      },
+      "image": "assets/uploads/1780577169545-ao-loa-hoa-tien-dtg.jpeg",
+      "featured": true,
+      "publishedAt": "2026-06-04T12:46:15.519Z"
+    },
+    {
       "id": "product-1780496050093",
       "categoryKey": "tui",
       "category": {
