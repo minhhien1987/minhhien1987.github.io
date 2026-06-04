@@ -121,6 +121,16 @@
         "vi": "Áo loa DTG bạt vải bố chống mưa,nắng,bền đẹp bảo vệ loa tốt.",
         "en": "DTG speaker jacket is made of burlap to prevent rain, sun, durable and beautiful to protect the speaker well."
       },
+      "images": [
+        "assets/uploads/1780577169545-ao-loa-hoa-tien-dtg.jpeg",
+        "assets/uploads/1780586354674-0-dzrhr-ao-loa-hoa-tien-dtg.jpg",
+        "assets/uploads/1780586357743-1-5un9l-ao-loa-hoa-tien-dtg.jpg",
+        "assets/uploads/1780586359983-2-sxpke-ao-loa-hoa-tien-dtg.webp",
+        "assets/uploads/1780586361503-3-5ipa1-ao-loa-hoa-tien-dtg.jpg",
+        "assets/uploads/1780586363014-4-w16e0-ao-loa-hoa-tien-dtg.webp",
+        "assets/uploads/1780586365233-5-oml23-ao-loa-hoa-tien-dtg.jpg",
+        "assets/uploads/1780586366842-6-aa8h8-ao-loa-hoa-tien-dtg.jpg"
+      ],
       "image": "assets/uploads/1780577169545-ao-loa-hoa-tien-dtg.jpeg",
       "featured": true,
       "publishedAt": "2026-06-04T12:46:15.519Z"
@@ -142,7 +152,10 @@
       },
       "image": "assets/uploads/1780496044863-tui-bat.jpeg",
       "featured": true,
-      "publishedAt": "2026-06-03T14:14:10.094Z"
+      "publishedAt": "2026-06-03T14:14:10.094Z",
+      "images": [
+        "assets/uploads/1780496044863-tui-bat.jpeg"
+      ]
     },
     {
       "id": "product-1780490577836",
@@ -161,7 +174,10 @@
       },
       "image": "assets/uploads/1780490573558-ao-loa.jpeg",
       "featured": true,
-      "publishedAt": "2026-06-03T12:42:57.837Z"
+      "publishedAt": "2026-06-03T12:42:57.837Z",
+      "images": [
+        "assets/uploads/1780490573558-ao-loa.jpeg"
+      ]
     },
     {
       "id": "product-ao-thun",
@@ -180,7 +196,10 @@
       },
       "image": "assets/images/product-tshirt.svg",
       "featured": true,
-      "publishedAt": "2026-05-31T00:00:00.000Z"
+      "publishedAt": "2026-05-31T00:00:00.000Z",
+      "images": [
+        "assets/images/product-tshirt.svg"
+      ]
     },
     {
       "id": "product-so-mi",
@@ -199,7 +218,10 @@
       },
       "image": "assets/images/product-shirt.svg",
       "featured": true,
-      "publishedAt": "2026-05-31T00:00:00.000Z"
+      "publishedAt": "2026-05-31T00:00:00.000Z",
+      "images": [
+        "assets/images/product-shirt.svg"
+      ]
     },
     {
       "id": "product-do-bo",
@@ -218,7 +240,10 @@
       },
       "image": "assets/images/product-set.svg",
       "featured": true,
-      "publishedAt": "2026-05-31T00:00:00.000Z"
+      "publishedAt": "2026-05-31T00:00:00.000Z",
+      "images": [
+        "assets/images/product-set.svg"
+      ]
     },
     {
       "id": "product-tre-em",
@@ -237,7 +262,10 @@
       },
       "image": "assets/images/product-kids.svg",
       "featured": false,
-      "publishedAt": "2026-05-31T00:00:00.000Z"
+      "publishedAt": "2026-05-31T00:00:00.000Z",
+      "images": [
+        "assets/images/product-kids.svg"
+      ]
     }
   ],
   "posts": [
@@ -256,7 +284,10 @@
         "en": "Minh Hien Garment aims to be a flexible, approachable and reliable manufacturing partner. Each request is reviewed with clear discussion of styles, materials, quantities, timelines and finishing standards.\n\nPlease contact us directly to discuss your requirements and receive an initial consultation."
       },
       "image": "assets/images/blog-workshop.svg",
-      "publishedAt": "2026-05-31T00:00:00.000Z"
+      "publishedAt": "2026-05-31T00:00:00.000Z",
+      "images": [
+        "assets/images/blog-workshop.svg"
+      ]
     },
     {
       "id": "post-quy-trinh",
@@ -273,7 +304,10 @@
         "en": "The basic process includes: requirement intake, sample and specification discussion, production-plan alignment, progress tracking, finished-product inspection and delivery.\n\nThe workflow can be adapted to match the practical characteristics of each order."
       },
       "image": "assets/images/blog-process.svg",
-      "publishedAt": "2026-05-30T00:00:00.000Z"
+      "publishedAt": "2026-05-30T00:00:00.000Z",
+      "images": [
+        "assets/images/blog-process.svg"
+      ]
     }
   ]
 }
