@@ -107,25 +107,6 @@
   ],
   "products": [
     {
-      "id": "product-1780496052853",
-      "categoryKey": "tui",
-      "category": {
-        "vi": "Túi",
-        "en": "Túi"
-      },
-      "title": {
-        "vi": "Túi bạt",
-        "en": "Túi bạt"
-      },
-      "description": {
-        "vi": "Túi bạt chống sốc chống mưa,siêu bền,dễ dàng vận chuyển",
-        "en": "Túi bạt chống mưa chống sốc,siêu bền dễ dàng vận chuyển"
-      },
-      "image": "assets/uploads/1780496048567-tui-bat.jpeg",
-      "featured": true,
-      "publishedAt": "2026-06-03T14:14:12.853Z"
-    },
-    {
       "id": "product-1780496050093",
       "categoryKey": "tui",
       "category": {
