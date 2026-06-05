@@ -107,6 +107,34 @@
   ],
   "products": [
     {
+      "id": "product-1780670419740",
+      "categoryKey": "ao-1",
+      "category": {
+        "vi": "ss",
+        "en": "ss"
+      },
+      "title": {
+        "vi": "s",
+        "en": "ss"
+      },
+      "description": {
+        "vi": "sss",
+        "en": "ss"
+      },
+      "images": [
+        "assets/uploads/1780670403574-0-gg4c3-s.jpg",
+        "assets/uploads/1780670406961-1-mvwtf-s.jpg",
+        "assets/uploads/1780670409432-2-3n44d-s.webp",
+        "assets/uploads/1780670411230-3-zen0c-s.jpg",
+        "assets/uploads/1780670413320-4-fwxgv-s.webp",
+        "assets/uploads/1780670415771-5-fzfj8-s.jpg",
+        "assets/uploads/1780670417480-6-3vcvy-s.jpg"
+      ],
+      "image": "assets/uploads/1780670403574-0-gg4c3-s.jpg",
+      "featured": false,
+      "publishedAt": "2026-06-05T14:40:19.740Z"
+    },
+    {
       "id": "product-1780577175518",
       "categoryKey": "ao-loa-vai-bo",
       "category": {
