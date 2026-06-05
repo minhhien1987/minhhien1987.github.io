@@ -202,12 +202,16 @@
         "vi": "Áo loa chống mưa nắng",
         "en": "Verry"
       },
+      "images": [
+        "assets/uploads/1780490573558-ao-loa.jpeg",
+        "assets/uploads/1780670640895-0-x9grv-ao-loa.webp",
+        "assets/uploads/1780670642427-1-faxl0-ao-loa.jpg",
+        "assets/uploads/1780670671015-0-2ah2c-ao-loa.webp",
+        "assets/uploads/1780670672878-1-5z76k-ao-loa.jpg"
+      ],
       "image": "assets/uploads/1780490573558-ao-loa.jpeg",
       "featured": true,
-      "publishedAt": "2026-06-03T12:42:57.837Z",
-      "images": [
-        "assets/uploads/1780490573558-ao-loa.jpeg"
-      ]
+      "publishedAt": "2026-06-03T12:42:57.837Z"
     },
     {
       "id": "product-ao-thun",
