@@ -150,12 +150,13 @@
         "vi": "Túi bạt chống sốc chống mưa,siêu bền,dễ dàng vận chuyển",
         "en": "Túi bạt chống mưa chống sốc,siêu bền dễ dàng vận chuyển"
       },
+      "images": [
+        "assets/uploads/1780496044863-tui-bat.jpeg",
+        "assets/uploads/1780666967850-0-2nwmv-tui-bat.jpg"
+      ],
       "image": "assets/uploads/1780496044863-tui-bat.jpeg",
       "featured": true,
-      "publishedAt": "2026-06-03T14:14:10.094Z",
-      "images": [
-        "assets/uploads/1780496044863-tui-bat.jpeg"
-      ]
+      "publishedAt": "2026-06-03T14:14:10.094Z"
     },
     {
       "id": "product-1780490577836",
