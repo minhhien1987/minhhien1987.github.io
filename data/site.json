@@ -107,6 +107,32 @@
   ],
   "products": [
     {
+      "id": "product-1780672638190",
+      "categoryKey": "minh-hien-thu-nghiem",
+      "category": {
+        "vi": "xxxx",
+        "en": "xxx"
+      },
+      "title": {
+        "vi": "xxx",
+        "en": "xxx"
+      },
+      "description": {
+        "vi": "xxxx",
+        "en": "xxxx"
+      },
+      "images": [
+        "assets/uploads/1780672621961-0-i3pkp-xxx.jpg",
+        "assets/uploads/1780672624248-1-rytf2-xxx.jpg",
+        "assets/uploads/1780672627394-2-efcez-xxx.jpg",
+        "assets/uploads/1780672631138-3-2sxtr-xxx.jpg",
+        "assets/uploads/1780672635989-4-l3zox-xxx.webp"
+      ],
+      "image": "assets/uploads/1780672621961-0-i3pkp-xxx.jpg",
+      "featured": false,
+      "publishedAt": "2026-06-05T15:17:18.190Z"
+    },
+    {
       "id": "product-1780670419740",
       "categoryKey": "ao-1",
       "category": {
