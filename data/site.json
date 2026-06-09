@@ -107,29 +107,6 @@
   ],
   "products": [
     {
-      "id": "product-1780672944441",
-      "categoryKey": "jjj",
-      "category": {
-        "vi": "Hhh",
-        "en": "Hhh"
-      },
-      "title": {
-        "vi": "Hh",
-        "en": "Hh"
-      },
-      "description": {
-        "vi": "Hhhh",
-        "en": "Hhh"
-      },
-      "images": [
-        "assets/uploads/1780672938541-0-hji9bq-hh.png",
-        "assets/uploads/1780672994629-0-psy3cg-hh.jpg"
-      ],
-      "image": "assets/uploads/1780672938541-0-hji9bq-hh.png",
-      "featured": false,
-      "publishedAt": "2026-06-05T15:22:24.441Z"
-    },
-    {
       "id": "product-1780672638190",
       "categoryKey": "minh-hien-thu-nghiem",
       "category": {
